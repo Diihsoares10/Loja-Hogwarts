@@ -1,0 +1,224 @@
+body {
+    background-color: #d3d3d3;
+    font-family: 'Garamond', serif;
+    font-size: 16px;
+    color: #726f6f;
+    zoom: 80%;
+}
+
+header{
+  min-width: 100%;
+  background-image: url(lojahpfundo.jpg);
+  box-shadow: 2px 1px 5px black;
+  height: 220px;
+  width: 2000px;
+  background-position: center;
+  max-width: 100%;
+  margin: -2px;
+  
+}
+
+#cab {
+  min-width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 5px;
+  background-color: #333131;
+  box-shadow: 3px 3px 3px black;
+}
+
+.logo {
+  min-width: 100%;
+  height: auto;
+}
+
+nav {
+  max-width: 100%;
+  text-align: center
+}
+
+nav a {
+  max-width: 100%;
+  font-weight: bold;
+  box-shadow: 3px 3px 3px black;
+  font-size: 20px;
+  width: 200px;
+  height: 40px;
+  background-color:#333131;
+  
+}
+
+nav a:hover {
+  max-width: 100%;
+  background-color: rgb(69, 119, 88);
+}
+
+
+#titu {
+    max-width: 100%;
+    font-size: 50px;
+    letter-spacing: 10px;
+    color: #333131;
+    box-shadow: 2px black;
+    text-align: center;
+    margin-top: 50px;
+    margin: 235px;
+}
+
+p{
+  display: flex;
+  color: #000000;
+  text-decoration: none;
+  box-shadow: 3px 3px 3px black;
+  text-align: center;
+  height: 25px;
+  width: 390px;
+
+}
+
+nav {
+    display: flex;
+    justify-content: center;
+    margin-top: 120px;
+    padding: 16px;
+}
+
+nav a {
+  color: #E8D6A7;
+  font-weight: bold;
+  box-shadow: 5px 8px 3px black;
+  font-size: 20px;
+  width: 225px;
+  height: 13px;
+  background-color: #333131;
+}
+
+
+a {
+    color: #000000;
+    text-decoration: none;
+    text-transform: uppercase;
+    padding: 15px;
+    
+}
+
+#container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  height: 100%; /* Defina a altura do container para ocupar toda a altura da página */
+  margin: 5px auto;
+}
+
+#container ol {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+#container {
+  display: flex;
+  flex-direction: row;
+  font-size: 19px;
+
+}
+
+#container img {
+  width: 310px;
+  height: 239px;
+  border-radius: 20%;
+  position: relative;
+  
+}
+
+.house0:hover{
+  border-radius: 45px;
+  transform: scale(1.2);
+  transition: transform 0.3s ease-in-out;
+  background-color: #ce2d2d;
+}
+
+.house1:hover{
+  border-radius: 45px;
+  background-color: rgb(22, 121, 91);
+  transition: transform 0.3s ease-in-out;
+  transform: scale(1.2);
+}
+
+.house2:hover{
+  border-radius: 45px;
+  background-color: rgb(78, 121, 238);
+  transition: transform 0.3s ease-in-out;
+  transform: scale(1.2);
+}
+
+.house3:hover{
+  border-radius: 45px;
+  background-color: rgb(216, 191, 51);
+  transition: transform 0.3s ease-in-out;
+  transform: scale(1.2);
+}
+
+.product-image {
+    cursor: pointer;
+    position: relative;
+}
+  
+.varinhas-list {
+    display: flex;
+    justify-content: space-between;
+    margin: 50px 0;
+    padding: 0;
+    list-style: none;
+
+}
+  
+.varinhas-list{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    margin: 0 20px;
+    box-shadow: 5px 5px 5px black;
+}
+  
+.product-image {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 10px;
+
+}
+  
+h3, p, h2 {
+    margin-top: 5px ;
+    padding: 0;
+    height: 19px;
+    width: 225px;
+}
+  
+button {
+    margin-top: 10px;
+    padding: 10px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+  
+button:hover {
+    background-color: #3e8e41;
+}
+  
+footer{
+  color: #000000;
+  text-align: center;
+}
+
+/*Casa Gryfinoria*/
+
+#grytitu{
+  background-color: #000000;
+  color: #4CAF50;
+}
